@@ -1,0 +1,13 @@
+spring:
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 7080
+
+jwt:
+  secret: secretkey
+  get:
+    token:
+      uri: /authenticate
